@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YXHTTPSession_Example' do
+  pod 'YXHTTPSession', :path => '../'
+
+  target 'YXHTTPSession_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
