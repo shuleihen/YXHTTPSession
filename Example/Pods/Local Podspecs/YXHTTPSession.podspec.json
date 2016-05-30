@@ -1,0 +1,23 @@
+{
+  "name": "YXHTTPSession",
+  "version": "0.1.2",
+  "summary": "A simple network base on NSURLSession.",
+  "homepage": "https://github.com/shuleihen/YXHTTPSession",
+  "license": "MIT",
+  "authors": {
+    "zdy": "shuleihen@126.com"
+  },
+  "source": {
+    "git": "https://github.com/shuleihen/YXHTTPSession.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "YXHTTPSession/Classes/**/*",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.0.10"
+    ]
+  }
+}

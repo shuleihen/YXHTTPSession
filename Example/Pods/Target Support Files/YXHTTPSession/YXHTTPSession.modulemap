@@ -1,0 +1,6 @@
+framework module YXHTTPSession {
+  umbrella header "YXHTTPSession-umbrella.h"
+
+  export *
+  module * { export * }
+}

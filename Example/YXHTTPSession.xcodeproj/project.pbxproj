@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1905CC041CFBCB5C00C30B2F /* YXNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1905CC031CFBCB5C00C30B2F /* YXNetwork.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		02DCFFBF623C2A83468827A3 /* YXHTTPSession.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXHTTPSession.podspec; path = ../YXHTTPSession.podspec; sourceTree = "<group>"; };
 		06159D15A4086740B60939F3 /* Pods_YXHTTPSession_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXHTTPSession_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		111D06F2D17240C9BD70A266 /* Pods-YXHTTPSession_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXHTTPSession_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXHTTPSession_Tests/Pods-YXHTTPSession_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1905CC021CFBCB5C00C30B2F /* YXNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetwork.h; sourceTree = "<group>"; };
+		1905CC031CFBCB5C00C30B2F /* YXNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetwork.m; sourceTree = "<group>"; };
 		2F9E0B81BDA7A6FCABF6DCC4 /* Pods-YXHTTPSession_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXHTTPSession_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXHTTPSession_Example/Pods-YXHTTPSession_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43E09C95FB9CD086085E5BFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		448D6394D7635B8A879928D8 /* Pods_YXHTTPSession_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXHTTPSession_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1905CBFE1CFBCB5B00C30B2F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1905CBFF1CFBCB5C00C30B2F /* Matedata */,
+				1905CC021CFBCB5C00C30B2F /* YXNetwork.h */,
+				1905CC031CFBCB5C00C30B2F /* YXNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1905CBFF1CFBCB5C00C30B2F /* Matedata */ = {
+			isa = PBXGroup;
+			children = (
+				1905CC001CFBCB5C00C30B2F /* Goods */,
+				1905CC011CFBCB5C00C30B2F /* User */,
+			);
+			path = Matedata;
+			sourceTree = "<group>";
+		};
+		1905CC001CFBCB5C00C30B2F /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		1905CC011CFBCB5C00C30B2F /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		594E6563775F3ACE4C3D46B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +143,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1905CBFE1CFBCB5B00C30B2F /* Network */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YXHTTPSession */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -391,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YXAppDelegate.m in Sources */,
+				1905CC041CFBCB5C00C30B2F /* YXNetwork.m in Sources */,
 				6003F5A7195388D20070C39A /* YXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

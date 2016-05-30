@@ -1,0 +1,19 @@
+PODS:
+  - MJExtension (3.0.10)
+  - YXHTTPSession (0.1.2):
+    - MJExtension (~> 3.0.10)
+
+DEPENDENCIES:
+  - YXHTTPSession (from `../`)
+
+EXTERNAL SOURCES:
+  YXHTTPSession:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  YXHTTPSession: 3c19793bb2be8c7c76dd5a0a384637c2e94a7757
+
+PODFILE CHECKSUM: e527296864bdebf2e400180fc2b8cd666cb3d69f
+
+COCOAPODS: 1.0.0

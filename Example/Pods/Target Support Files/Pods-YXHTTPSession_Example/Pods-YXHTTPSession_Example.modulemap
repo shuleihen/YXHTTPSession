@@ -1,0 +1,6 @@
+framework module Pods_YXHTTPSession_Example {
+  umbrella header "Pods-YXHTTPSession_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
