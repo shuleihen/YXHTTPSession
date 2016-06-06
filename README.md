@@ -23,6 +23,7 @@ source https://github.com/CocoaPods/Specs
 source https://github.com/shuleihen/Specs
 ```ruby
 
+在Podfile 添加依赖地方添加项目
 ```ruby
 pod "YXHTTPSession"
 ```
