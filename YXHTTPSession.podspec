@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "YXHTTPSession"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "A simple network base on NSURLSession."
   s.homepage         = "https://github.com/shuleihen/YXHTTPSession"
   s.license          = 'MIT'
