@@ -177,7 +177,7 @@ static NSString *YXBoundary             = @"----------cH2gL6ei4Ef1KM7cH2KM7ae0ei
     }
     else {
         NSString *queryString = GenerateParamsBlock();
-        NSString *string = [urlString stringByAppendingString:queryString];
+        NSString *string = [NSString stringWithFormat:@"%@?%@",urlString,queryString];
         mutableRequest.URL = [NSURL URLWithString:string];;
     }
     
