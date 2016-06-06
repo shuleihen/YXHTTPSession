@@ -1,9 +1,10 @@
 PODS:
   - MJExtension (3.0.10)
-  - YXHTTPSession (0.1.2):
+  - YXHTTPSession (0.1.3):
     - MJExtension (~> 3.0.10)
 
 DEPENDENCIES:
+  - MJExtension
   - YXHTTPSession (from `../`)
 
 EXTERNAL SOURCES:
@@ -12,8 +13,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
-  YXHTTPSession: 3c19793bb2be8c7c76dd5a0a384637c2e94a7757
+  YXHTTPSession: 157b3b74da59190c6a011f9ff15a3f7d8b363264
 
-PODFILE CHECKSUM: e527296864bdebf2e400180fc2b8cd666cb3d69f
+PODFILE CHECKSUM: cefa3aec32419841bcde618d96b9772f6609c4de
 
 COCOAPODS: 1.0.0

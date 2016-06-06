@@ -16,7 +16,7 @@ NSString *YXProtocolErrorDomain     = @"YXProtocolErrorDomain";
 static YXErrorMessage *errorMsg = NULL;
 
 @implementation YXError
-+ (void)setupErrorMessages:(YXErrorMessage *)errorMsgs
++ (void)setupErrorMessages:(YXErrorMessage * __nullable)errorMsgs
 {
     errorMsgs = errorMsgs;
 }

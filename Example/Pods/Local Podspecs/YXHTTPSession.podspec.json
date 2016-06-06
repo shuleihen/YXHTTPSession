@@ -1,6 +1,6 @@
 {
   "name": "YXHTTPSession",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "A simple network base on NSURLSession.",
   "homepage": "https://github.com/shuleihen/YXHTTPSession",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/shuleihen/YXHTTPSession.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "7.0"

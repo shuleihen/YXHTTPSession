@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, YXErrorCode) {
 
 typedef struct {
     int code;
-    char * __nonnull message;
+    char *message;
 }YXErrorMessage;
 
 @interface YXError : NSObject

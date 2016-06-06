@@ -1,8 +1,10 @@
-use_frameworks!
+
+platform :ios, '7.0'
 
 target 'YXHTTPSession_Example' do
   pod 'YXHTTPSession', :path => '../'
-
+  pod 'MJExtension'
+  
   target 'YXHTTPSession_Tests' do
     inherit! :search_paths
 
