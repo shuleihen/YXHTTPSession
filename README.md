@@ -16,6 +16,14 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 YXHTTPSession is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+在Podfile 最上面添加 
+
+```ruby
+source https://github.com/CocoaPods/Specs
+source https://github.com/shuleihen/Specs
+```ruby
+
+在Podfile 添加依赖地方添加项目
 ```ruby
 pod "YXHTTPSession"
 ```
