@@ -17,8 +17,11 @@ YXHTTPSession is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 在Podfile 最上面添加 
+
+```ruby
 source https://github.com/CocoaPods/Specs
 source https://github.com/shuleihen/Specs
+```ruby
 
 ```ruby
 pod "YXHTTPSession"
