@@ -32,6 +32,8 @@ YXErrorMessage errorMsg[] = {
     
     [YXError setupErrorMessages:errorMsg];
     
+    [YXSession addURLPath:@"/user" parseClassName:@"UserModel" parseType:YXProtocolURLParseObject];
+    
     __weak YXHTTPSession *wself = (YXHTTPSession *)YXSession;
     
     [YXSession setTaskDidCompletionBlock:^(NSData *data, NSURLResponse *response, NSError *error, YXCompletionBlock block){
