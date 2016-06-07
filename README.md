@@ -10,27 +10,28 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 7.0 
 
 ## Installation
 
 YXHTTPSession is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-在Podfile 最上面添加 
+At the top fo the Podfile file, add private specs repo
 
 ```ruby
 source https://github.com/CocoaPods/Specs
 source https://github.com/shuleihen/Specs
-```ruby
+```
 
-在Podfile 添加依赖地方添加项目
+Add pod
 ```ruby
 pod "YXHTTPSession"
 ```
 
 ## Author
 
-shuleihen@126.com, shuleihen@126.com
+shuleihen@126.com
 
 ## License
 
